@@ -28,9 +28,4 @@ def restaurants():
 @app.post("/ask-ai")
 def ask_ai(q: Question):
     return {"reply": f"AI応答: {q.text}"}
-,
-    ]
-
-@app.post("/ask-ai")
-def ask_ai(q: Question):
-    return {"reply": f"AI応答: {q.text}"}
+}
